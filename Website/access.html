@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Digital Legacy Hub — Accessibility</title>
+<meta name="description" content="The accessibility features built into the Digital Legacy Hub, including text size, contrast, motion, and font options.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to main content</a>
+
+<div class="a11y-bar" role="region" aria-label="Accessibility settings">
+  <div class="a11y-group">
+    <strong>Text size:</strong>
+    <button id="btn-fs-normal" aria-pressed="true">A</button>
+    <button id="btn-fs-large" aria-pressed="false">A+</button>
+    <button id="btn-fs-xlarge" aria-pressed="false">A++</button>
+  </div>
+  <div class="a11y-group">
+    <button id="btn-contrast" aria-pressed="false">High contrast</button>
+    <button id="btn-motion" aria-pressed="false">Reduce motion</button>
+    <button id="btn-legible-font" aria-pressed="false">Dyslexia-friendly font</button>
+  </div>
+  <div class="a11y-group" style="border-right:none;">
+    <label for="lang-select" style="font-weight:bold;">Language:</label>
+    <select id="lang-select">
+      <option value="en" selected>English</option>
+      <option value="es">Español (prototype)</option>
+      <option value="fr">Français (prototype)</option>
+      <option value="ar">العربية (prototype)</option>
+      <option value="ur">اردو (prototype)</option>
+      <option value="zh">中文 (prototype)</option>
+      <option value="hi">हिन्दी (prototype)</option>
+    </select>
+    <span id="lang-notice" role="status"></span>
+  </div>
+</div>
+
+<div class="tabnav-wrap">
+  <ul class="tabnav">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="why.html">Why This Exists</a></li>
+    <li><a href="learn.html">Learn</a></li>
+    <li><a href="stories.html">Real Stories</a></li>
+    <li><a href="platforms.html">Platform Ethics</a></li>
+    <li><a href="law.html">UK & EU Law</a></li>
+    <li><a href="quiz.html">Will & Legacy Tool</a></li>
+    <li><a href="contact.html">Contact Us</a></li>
+    <li><a href="access.html" aria-current="page">Accessibility</a></li>
+    <li><a href="about.html">About</a></li>
+  </ul>
+</div>
+
+<div class="ticker-wrap" role="marquee" aria-label="Latest developments ticker">
+  <div class="ticker-track">
+    Built to be usable with a keyboard alone, a screen reader, or a high-contrast display &nbsp;&nbsp;•&nbsp;&nbsp;
+  </div>
+</div>
+
+<main id="main-content" class="page-shell">
+  <div class="win">
+    <div class="win-titlebar">Accessibility Statement</div>
+    <div class="win-body">
+      <h2>Accessibility</h2>
+      <p>This site aims to be usable by people of all ages, technical backgrounds, and abilities. Available features include: adjustable text size (A / A+ / A++), a high-contrast mode, a reduce-motion toggle that also respects your device's own reduced-motion setting automatically, a dyslexia-friendly font toggle (Atkinson Hyperlegible), keyboard-operable navigation and forms, visible focus outlines, and a skip-to-content link on every page.</p>
+      <p>Most of this site uses ordinary links and forms rather than pop-ups, so moving between pages and completing the Will &amp; Legacy tool works the same way as any standard website, with the browser's own Back button always available. One exception is used deliberately: a single, dismissible support notice appears once per browser session, reminding you that bereavement support is available if this topic is difficult right now. It is built as a proper accessible dialog rather than a browser alert, can be closed immediately with a click, a tap, or the Escape key, keeps keyboard focus trapped sensibly inside it while open, and never reappears again that session once dismissed.</p>
+      <p>A language selector is included as a working prototype. Selecting a language other than English currently shows a short, honest, non-blocking notice next to the selector rather than translated content. Full translation is planned but not yet built.</p>
+      <div class="disclaimer">Found something that does not work well with your screen reader, switch device, or browser? Please describe it on the <a href="contact.html">Contact Us</a> page, real reports directly improve this tool.</div>
+      <div id="share-widget"></div>
+    </div>
+  </div>
+</main>
+
+
+<footer class="about-footer">
+  <div class="footer-inner">
+    <h2>Digital Legacy Hub</h2>
+    <p>A free, standalone educational tool about digital accounts, digital property, and AI simulation of people after death, and what world traditions and the law currently say about it. Not a law firm, therapy service, or product endorsement.</p>
+    <div class="capstone-note">
+      <strong>About this tool.</strong> This site is an accompanying artefact for a Master's capstone project submitted at the London Interdisciplinary School, researching cross-cultural ethics of AI-powered digital resurrection tools and digital legacy planning. It is an educational awareness tool first and foremost, built to help you think and talk with people you trust. <strong>It is not a substitute for legal advice.</strong> For a legally valid will, speak with a qualified solicitor. See the <a href="about.html">About page</a> for the full project description.
+    </div>
+  </div>
+</footer>
+<div class="status-bar">
+  <span>Digital Legacy Hub</span>
+  <span id="status-clock">--:--</span>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

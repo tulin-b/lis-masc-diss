@@ -1,0 +1,280 @@
+< Character.Al Privacy Policy
+
+Character Al Privacy Polley
+
+Effective Date: July 1,202
+
+‘This Privacy Poly (the “Privacy Polley” r “Polley” describes the types of Information Charactor Technologies, Inc, ands sfllates ("Chracter.Al* “we,” “our” o "us" collect and process
+
+trom and about you.
+
+Excopt as described below, the Policy applies to all websites, mobile applications, and any other electronic /igtal products or other services that are made available by Character and that
+
+link to this Palicy nd our offline cervces (collectively, the “Services
+
+Undefined capitalized terms used inthis Policy have the meaning st forthinthe Character. Terms of Srvce
+
+For residents ofthe European Economic Area, the United Kingdom, or the United States: plaase refer to our Resional Privacy Disclosures for addtional details that may be relovant to you
+
+‘Lnformation We Collect
+
+When you accessor otherwise use cur Services, we collect information from you. The types of information we cllact depend on how you Use our Services. Please note that we need certain
+
+‘types of information to provide the Services to you. f you donot previde us with such information, aff you ask us to delat that infomation, you may no longer be ale to access oF use
+
+certain Services. The information wo collect includes data you directly provide to us, data we obtain automatically from your interactions with or Services, and data we obtain from other
+
+Information you provide directly to us. We collect information directly from you For example, you provide us with information wien you use the Services, communicate with us, register
+
+for an account, subscribe to our biog ar newsettas, or participate in our community, social media dlscusslons, or promotions Information you provide dctly tous may concern you and
+
+thors and may incl:
+
++ Idontitors, suchas your nam, email adéross, phone number, splay name, or username;
+
+‘+ Demographic information, such as your date of birth and goneral goolecation information;
+
++ Interests, such as categories ike "Sports" or "Writing
+
++ Your preferences based on account settings, use ofthe Services or feedback on the Services (from which we can also crest inferences)
+
++ Finaneil information, suchas payment information and ater information collected through our payment processing vendors;
+
++ Commercial information, such as purchasos and transaction history
+
++ Your content you submit, such as chat communications, posted imeges or videos, biography description and shared Characters
+
++ Voice dat, including recordings of your voce if you chose to use certain voice features; nd
+
++ Contents of communications with vs, suchas custome support messages
+
+Information you provide crecty tous might aso include information thet may be treated as sensitive under applicable Las, suchas login credentials, personal communication received or
+
+sent using our Services, or other information about yourself that you choose to provide when using our Services (29, you voluntary post usercontent revealing your race, religion, or
+
+‘sexual erentation). Sensitive personal information isnot required or necessary to use the Services - please do not include any sensitive personal information in your interactions with vs o the
+
+Services
+
+Information we collect about your use ofthe Services. We and our thrd-perty provers, which include advertising and analytics providers and ather service provers, use cookie, web
+
+beacons, and other tracking technologies to collect information about your use af the Services) Pleste note thet the specific tracking technologies and third-party providers may vary
+
+depending on where you are located and whether you acess the Services via our websites or mobile applications For more information about these technologies, pleas refer to our Cookie
+
+Palicy
+
+‘As described furthorin the Cookie Policy we use these technologies to collect andl analyze device, Internet, and other electronic network activity information including information about
+
+yur computer er devce (a. dove type; browser type SP or oporating systom: IP address: device Identifirs such a IDFA, Andeod ID, ec; version of our Services you are using)
+
+Information about how you use and interact with the Services (e.g, domainname; access time; refering or exit pages: page Views; Service-related identifiers such as UserID, Chat D, Session
+
+ID,etc: and actions taken within the Services); and geolacaton data ("echnical Information’)
+
+Information wo collact from other sourees. We may also coloct information from other sources, such as when you are raferrd tous by another uso. In this context, wo may recelve your
+
+name and contact detalls. We may also receive information from third-party platforms, fr example, such as when you interact with our ads on other platforms ike YouTube, TkTo, or Rede,
+
+‘or when you Interact with aur social media profiles on platforms ke Facebook, Instagram or Discord Information we collect in this context ineludes information bout how you interacted
+
+with ou ads o the third-party platform; information about your device; demographic information (eg, age, interests); and geolocation data
+
+We aso collet information when you connect to your account using an account maintained by a third party, such asa social mecia account ("Third-Party Account"). The Services collet
+
+Information about you from your Third-Party Accounts in accordance with your permissions When you connect tous or login through a Third-Party Account tke Facebook or Google, we
+
+receive Information from that thi party kdentiying your account: Information we collet inthis context includes third-party account detalls such as username or emal address, Wo colloct
+
+and store thsinformation and uso it to help you connect tothe Service. Connecting your account toa Third-Party Accounts completely optional, and you wil have the opportunity to grant
+
+Permision when you attempt to connect. You can revoke permission by logging inte the Thied-Party Account and sconnecting Character rom thera, and through the native applications
+
+fen your mobile device, Please note that if you revoke permission fora Third-Party Account, we may etan the information we collected previusy rom the Third-Party Account provider (but
+
+‘the secounts wil not be linked gong forward).
+
+We aso collet information that is avaiable onthe Internet or from other publicly avalable sources to evaluate and improve our Services including for model taining and development.
+
+Information we collected during the initial development and training of our proprietary models. For more information about how we collect and use information to develop our
+
+large anguage models, ad your choices with respect to that information where applicable, please soe our Regional Privacy Disclosures as well as Support Cantar artice. While such
+
+information was collactad in cannaction with the inal development af Character A's proprietary large language modal, we na longer carry aut this processing.
+
+2. How We Use the information We Collect
+
+\We use information fr the following purposes:
+
++ Provide, administer, and operate the Services and our business;
+
++ Generate and analyze inferences about use ofthe Services, such as your preferences and interests and trend about our Services (eg, which portions of the Services are used most
+‘Frequently, how users navigate the Services, and what our users Uke or do not Uke)
+
++ Talor the Sorvics to your proferencos and interests;
+
++ Evaluate the success of advertising campaigns;
+
++ Communicate with you, including t inform you about features or aspects ofthe Services we believe might be of interest to you:
+
++ Communicate with you about changes to our torms, conditions, or policies; orto respond to your inguiis, comments, feedback, or quostions:
+
++ Analyze, maintain improve, moxify, customize, and measure the Services, including to train our artificial intligence/machine learning models;
+
++ Develop new features, algorithms and machine learing madels, programs, and services;
+
++ Provide advertising en recruit new user, inclucing provision of tallored advertising,
+
++ Authenticate your account credentials, as necessary to log youn tothe Services andhelp protect the security of your account
+
++ Process payments;
+
++ Detect and prevent fraud, criminal activity, or misuse of eur Service, and to meintain tha sccurty of our IT systems, erchitecture, assets, customers, and networks; and
+
++ Comply with loga abligations and legal process and to protect ou rights, privacy, safety or property, andor that of our aflltes you, or other pares, including to enforce our Terms of
+Servi and anyother agreements oF polices,
+
+‘We combine information that we collect through the Services wit information that we obtain from other sources. We may alo aggragate or anonymize information collected through the
+
+Services We uee and cclote aggregated or anonymized data for a number of purposes including without limitation for research and marketing purposes. Te the extent we anonymiza ay
+
+deta originally based on personal information aa that tana longer reasonably linkable t an individual or haueshold, we maintain and uss such dat in de-identified frm and il not ettampt
+
+‘3. When We Disclose the Information We Collect
+
+Wie clisclose information in any ofthe following circumstances
+
++ Affiliates. We csciose information to our aiiates and subsiclris, who may use the information we disclose ina manner consistent with tis Policy.
+
++ Vendors and Service Providers Wo disclose information to employees, consultants, sorvce providers and other vendors who need access to such infermation to carry out work or
+perform services on our behalf, such as those who provide data storage, payment, technology support and services, customer service analytes, fraud prevention, content moderation,
+{egal sarvcos, and marketing and advertising sorvicos.
+
++ Safety and Protection of Character.Al and Others. We mey disclose certain information we beliovein good Fath thst doing sols necessary ex appropriate ta) protector defend
+(Character or other partis, including to defend or enforce this Palicy, our Terms af Service, cur Community Guidelines or other polos, or any other contractual arrangement; andor)
+protect the rights, property ar parsonal safety of Character, our agents and affilates, cur employees, users and the publ.
+
++ Advertising and Analyties. Wo may disclose persona information to advertising and anaiytice provider in connection with the provision of tallored advertising, to monitor the
+performance of advertlsoments displayed on our behalf on tho Sorvices and across the Inlornet, to provide analytics services, and to help improve ur Services. Thesoontos may uso
+‘Sookie ana tracking tsennologos to allow us to, among otha things, track and analyze data detarmine the popuarty of cartaln content, delve talored advertising and content, and
+better understand Your enine sctvty. For more information abovt how we uss cookies and tracking tachnologis, please see our Cooks Policy.
+
++ Your Content. Certin actions you take might result in your content being made avaliable to others, including the public. For example, if you crest ar share content, such as creating
+“public® Characters or a public" Voice, we may make that content avallable and visible to others.
+
++ Logal Requirements. We may disclose certain information if we belive in good faith tht doing es nacestary or appropriate to comply with any law enforcement, aga, or regulatory
+process, suchas to respond toa warrant, subpoena, court order, or other applicable laws and regulations.
+
++ Business Transfers. We may disclose certain information, in connection with or during negotiations or closing of any merger, sale of company assets, nancing, or acquisition of al ora
+portion of our business to anther company.
+
++ Other Disclosures with Consent of at Your Direction, We might make sltionsl disclosures of your information to thie parties when you sect us todo so. For example, where you
+‘drgct us to disclose information bout you when you refer Us or our Sorvices to your ends or other acquaintances,
+
+4. Your Choices
+
+Wie offer you certain choices regarding the collection, us, and lsclosure of your personal information.
+
+Profile information. You may delete your eccount through your account profile page. You may also verity, correct, update or delete certain of your information through your account profile
+
+page.
+
+‘Marketing communications. You can unsubscribe from marketing emalls by folowing the rections in those ema, Please note that f you unsubscribe from marketing mals, we may stil
+
+ond you administrative omals regarding the Services, including, for example, notice of updates to our Terms of Service or this Policy.
+
+Cookies. Doponding on where youve and the options avalableon your device or brows, you may have the ability te manage the cookas in so. For mors information, poase refer to
+
+cour Cookie Paticy.
+
+Rights to information about you, For more information about region-epecfi rights for residents ofthe European Economic Area, United Kingdom, and the United States, plaase refer to
+
+‘our Regional Privacy Disclosures. Depending on where you lve and subject to applicable exceptions under local Law, you may have te following rights:
+
++ Toreqvest information about our processing of your persona information;
+
++ Toroquest accoss to and/or a copy of certain information we hold about you (cluding ina portable andor machine-readable format);
+
++ To object te how we process your personal information;
+
++ To opt eu of sles of personal information or targeted advertising,
+
++ To update or correct your personal information:
+
++ Torequest that we delete certain personal information we hold about you
+
++ Torestrct how we process certain personal information about you:
+
++ Torequest thet we transfer your information toa thi-party provider of services;
+
++ Towitharaw consent fer the processing of your personel information, when under applicable Laws you hed previvaly provided consent nc
+
++ The it not to be ciscriminated against for exercising your rats
+
+Plesee note that certain information may be exempt from such requests under applicable law. For example, we may retin certain information fr legal compliance and to sacure our Services
+
+‘We may need certin information inorder to provide the Services to you If you ask us to delete it, you may no longer be able to use the Services,
+
+If you would tke information regarding your rights or would lke to exorcise ay rights youmay have under apolleable aw, contact us at httos:/Supper.charactrafhefen-us/roquastsne,
+
+‘mai s at prvacyetcharacteral or vit ou Halp Contr at support. charactor. To protect your privacy and socurty, we take reasonable stops to verity your klntty and requests before
+
+‘ranting such requests. wo are unable to verity your identity we may be unable to respond to your requests.
+
+5. Rogional Privacy Disclosures
+
+Depending on where you ve, you may have specific rights o there may be certain information we need to make avaiable to you f you lve nthe European Economic Area the United
+
+Kingdom, or the United States, please refer to our Regional Privacy Disclosures for adltional information that may be relevant to you
+
+6. Children's Privacy
+
+‘The Services are not designed for minors under 1S, anc ou Terms of Service prohibit use by anyone under 18 or under 16if you area resident ofthe European Economic Area or the United
+
+Kingdom,
+
+7.Data Retention
+
+{In General We koop you information forthe time necessary forthe purposes for which itis processed or as otherwise described atthe time the information i collocted, unless a shortor
+
+rotention periods required bylaw. The Lnath of time for which we retain information depends onthe purposes for which we collacted and use it and your choices, afta which time we may
+
+delete andor aggregate it. We may als retain and use thi information as necessary to comply with or legal obligation, reslve lsputes and enforce our agreements.
+
+Popular Characters. fa Charactor you create has boon made avalable to other users, than we reserve the right to preserve that Characte's characteristics and to keep that Charactor
+
+Active onthe Servis, even if you otherwite delate your data and your account. We do this to avoid impacting the experience of othr users. To ensure that we do not retain information|
+
+‘bout you when this occurs, please avoid submitting any such information as part ofthe Character creation flow f you are crating a Character that you pan ta make avaliable to others,
+
+8. Links to Third Party Wobsitos
+
+‘The Sorvicos may contain Uns to third-party websites or srvicos. We are not responsible forthe content or practices of those websites or sorvces. The collection, use, and closure of
+
+‘your information by third pari will be subject to the privacy policies cf the thiel-party websites or services, and nat this Palicy. We urge you to read the privacy and security policies of
+
+‘these thr parties before providing information to them.
+
+9. Changes to this Policy
+
+‘Wo may update this Policy from time to time, We wil indicate the date ofthe most recent update in this Policy. I we make a material change to the Policy, you wil be provided with
+
+‘appropiate notice in accordance withloga requirements such a by emal or prominent posting on cur website or mobile application. By continuing to use the Services, you are confirming
+
+‘that you have reed and understood the atest version of this Paley.
+
+10, contact Us
+
+It youhnave any questions about ou Privacy Policy or information practices, please vst our Help Center at supportcharacteral emall usa privecy@character, or emit a request
+
+at https//sypportcharacteralhc/on-us/requests/new. You can also write tous at
+
+Character
+
+82
+
+700 Camino Rest
+
+suite 120
+
+Menlo Park CA 94025

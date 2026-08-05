@@ -1,0 +1,17 @@
+Check,Section,Expected,Actual,Status
+Character.AI terms dated Aug 2025,4.2,True,True,PASS
+guardianaingels terms dated 23 Feb 2026,4.2,True,True,PASS
+Replika terms dated 20 March 2026,4.2,True,True,PASS
+Replika bans simulating a real person without written consent,4.2,True,True,PASS
+Character.AI keeps shared Characters after account deletion,4.2,True,False,*** MISMATCH ***
+Character.AI terms never mention grief or bereavement,4.2,0,0,PASS
+"Character.AI 'death' appears once, in a liability waiver",4.2,1,1,PASS
+guardianaingels states conversations are simulated,4.2,True,True,PASS
+guardianaingels opens with a crisis line notice,4.2,True,True,PASS
+StoryFile terms never name the Digital Likeness Directive,4.2,0,0,PASS
+Replika terms never name the Online Safety Act,"2.9, 4.2",0,0,PASS
+Replika terms never name the EU AI Act,"2.9, 4.2",0,0,PASS
+Character.AI terms never name the Online Safety Act,"2.9, 4.2",0,0,PASS
+Character.AI terms never name the EU AI Act,"2.9, 4.2",0,0,PASS
+guardianaingels terms are the most readable substantial document,4.2,True,True,PASS
+StoryFile terms are at the top of the readability range,4.2,True,True,PASS

@@ -1,0 +1,172 @@
+const { page, fs } = require("./build_site.js");
+
+const body = `
+<main id="main-content" class="page-shell">
+  <div class="win">
+    <div class="win-titlebar">Will &amp; Legacy Tool: Build My Statement of Wishes</div>
+    <div class="win-body">
+      <h2>Build my Statement of Wishes</h2>
+      <div class="disclaimer">
+        <strong>This is not a legal will.</strong> The document produced at the end of this tool is an educational "Statement of Wishes" that can help you think, and can be a useful attachment to a real will, but it does not by itself meet the legal requirements for a valid will in the UK or elsewhere (see the <a href="law.html">UK &amp; EU Law page</a>). Please speak with a qualified solicitor to make anything here legally binding.
+      </div>
+
+      <div class="consent-gate">
+        <label>
+          <input type="checkbox" id="consent-check">
+          <span>I understand this tool is for educational and reflection purposes only, does not provide legal advice, and does not create a legally valid will or binding instruction on its own.</span>
+        </label>
+      </div>
+
+      <div class="wizard-progress" id="wizard-progress" aria-hidden="true">
+        <span data-step="1">1. You</span>
+        <span data-step="2">2. Accounts</span>
+        <span data-step="3">3. AI Simulation</span>
+        <span data-step="4">4. Culture &amp; Faith</span>
+        <span data-step="5">5. Trusted Person</span>
+        <span data-step="6">6. Review</span>
+      </div>
+
+      <form id="wizard-form" novalidate>
+        <fieldset class="step" data-step="1">
+          <legend>Step 1: You</legend>
+          <div class="field">
+            <label for="w-name">Your name</label>
+            <input type="text" id="w-name" name="name" autocomplete="name">
+          </div>
+          <div class="field">
+            <label for="w-purpose">In a sentence, why are you filling this out?</label>
+            <select id="w-purpose" name="purpose">
+              <option value="">Choose one</option>
+              <option value="curious">Just curious about the topic</option>
+              <option value="planning">Actively planning my own affairs</option>
+              <option value="supporting">Supporting someone else through this</option>
+              <option value="research">Taking part in related research</option>
+            </select>
+          </div>
+        </fieldset>
+
+        <fieldset class="step" data-step="2" hidden>
+          <legend>Step 2: Accounts &amp; Digital Property</legend>
+          <p style="font-size:13.5px;">Add each account or digital asset you want to think about, and roughly what you'd want done with it.</p>
+          <div id="accounts-list"></div>
+          <button type="button" class="btn" id="add-account-btn">+ Add another account</button>
+        </fieldset>
+
+        <fieldset class="step" data-step="3" hidden>
+          <legend>Step 3: AI Simulation Preferences</legend>
+          <div class="teach-box">
+            <h4>Before you answer</h4>
+            <p>This is the newest and least settled question covered by this tool. Commercial products can already build a chatbot, voice, or video "version" of a person from their messages, recordings, or photos, while they are alive or after they die. There is currently no UK law specifically governing whether this is allowed or on what terms. Views range from seeing this as a comforting way to preserve memory, to seeing it as a form of exploitation of grief, to seeing it as a spiritual or ethical problem regardless of comfort. There is no single right answer.</p>
+          </div>
+          <div class="research-panel">
+            <div class="rp-head"><span class="rp-badge">Own research</span><h4>A distinction worth thinking about</h4></div>
+            <p>This project's own survey found many people draw a sharp line between two different things that get lumped together as "AI simulation": a tool that simply retrieves or organises a deceased person's own messages, photos, and recordings on request (no invented personality), and a chatbot that simulates their ongoing personality and generates new things "they" might say. Respondents were consistently far more comfortable with the first than the second. The next question lets you record that distinction for yourself, rather than treating "AI simulation" as one single yes-or-no choice.</p>
+          </div>
+          <div class="field">
+            <label>Would you want an AI simulation made of you after you die, if the technology were available and safe?</label>
+            <select id="w-ai-consent" name="ai_consent">
+              <option value="">Choose one</option>
+              <option value="yes_full">Yes, without significant restriction</option>
+              <option value="yes_conditions">Yes, but only under specific conditions</option>
+              <option value="no">No, I would not want this</option>
+              <option value="unsure">I am not sure yet</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="w-ai-type">If any form were acceptable to you, which kind of tool would you be more comfortable with?</label>
+            <select id="w-ai-type" name="ai_type">
+              <option value="">Choose one</option>
+              <option value="memory_only">Retrieving my existing messages, photos, and recordings only, no invented personality</option>
+              <option value="personality_sim">A chatbot that simulates my ongoing personality and generates new responses</option>
+              <option value="both">Either would be acceptable to me</option>
+              <option value="neither">Neither, I do not want any form of this</option>
+              <option value="unsure">Not sure yet</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="w-ai-conditions">If you selected "only under specific conditions," describe them here (for example: only for close family, only text not voice, only for a limited time, must always disclose it is AI)</label>
+            <textarea id="w-ai-conditions" name="ai_conditions"></textarea>
+          </div>
+        </fieldset>
+
+        <fieldset class="step" data-step="4" hidden>
+          <legend>Step 4: Culture &amp; Faith</legend>
+          <div class="field">
+            <label for="w-tradition">Which tradition or worldview feels closest to your own, if any? (You can select "other" or "none" freely, this does not have to be a formal religious identity.)</label>
+            <select id="w-tradition" name="tradition">
+              <option value="">Choose one</option>
+              <option value="secular">Secular / Humanist</option>
+              <option value="christian">Christian</option>
+              <option value="islamic">Islamic</option>
+              <option value="jewish">Jewish</option>
+              <option value="hindu">Hindu</option>
+              <option value="buddhist">Buddhist</option>
+              <option value="confucian">Confucian</option>
+              <option value="daoist">Daoist</option>
+              <option value="african_ubuntu">African / Ubuntu</option>
+              <option value="other">Other / blended / not listed</option>
+            </select>
+          </div>
+          <div id="tradition-teach-box" class="teach-box" hidden></div>
+          <div class="field">
+            <label for="w-rituals">Are there specific rituals, practices, or beliefs about mourning and memory that matter to you, that you'd want reflected in how your legacy (digital or otherwise) is handled?</label>
+            <textarea id="w-rituals" name="rituals"></textarea>
+          </div>
+        </fieldset>
+
+        <fieldset class="step" data-step="5" hidden>
+          <legend>Step 5: Trusted Person</legend>
+          <div class="field">
+            <label for="w-trusted-name">Name of someone you trust to carry out these wishes</label>
+            <input type="text" id="w-trusted-name" name="trusted_name">
+          </div>
+          <div class="field">
+            <label for="w-trusted-rel">Their relationship to you</label>
+            <input type="text" id="w-trusted-rel" name="trusted_rel">
+          </div>
+          <div class="field">
+            <label for="w-trusted-notes">Anything else you'd want them to know</label>
+            <textarea id="w-trusted-notes" name="trusted_notes"></textarea>
+          </div>
+        </fieldset>
+
+        <fieldset class="step" data-step="6" hidden>
+          <legend>Step 6: Review Your Statement of Wishes</legend>
+          <div id="letter-preview" role="document" aria-label="Generated statement of wishes preview"></div>
+          <div class="letter-actions">
+            <button type="button" class="btn primary" id="email-letter-btn">Email me this draft</button>
+            <button type="button" class="btn" id="copy-letter-btn">Copy to clipboard</button>
+            <button type="button" class="btn" id="print-letter-btn">Print</button>
+            <button type="button" class="btn" id="download-letter-btn">Download as text file</button>
+            <span id="clipboard-status" role="status" aria-live="polite"></span>
+          </div>
+          <p style="font-size:12.5px;color:var(--ink-soft);margin-top:10px;">"Email me this draft" opens your own email app with the text already filled in. This is a static tool with no server, so nothing is sent through us, and nothing is stored anywhere except your own device.</p>
+          <div id="share-widget" style="margin-top:6px;"></div>
+          <p style="margin-top:18px;">
+            <button type="button" class="btn danger" id="restart-wizard-btn">↺ Start over</button>
+          </p>
+        </fieldset>
+
+        <div id="wizard-warning" class="inline-warning" role="alert"></div>
+        <div class="wizard-nav">
+          <button type="button" class="btn" id="wizard-back-btn">◀ Back</button>
+          <span id="wizard-status" class="vh" role="status" aria-live="polite"></span>
+          <button type="button" class="btn primary" id="wizard-next-btn">Next ▶</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</main>
+`;
+
+fs.writeFileSync(__dirname + "/quiz.html", page(
+  "quiz",
+  "Will & Legacy Tool",
+  "Build a Statement of Wishes covering your digital accounts, AI simulation preferences, and cultural or faith context.",
+  `New: Step 3 now reflects our own survey finding on memory-retrieval vs personality-simulation tools &nbsp;&nbsp;•&nbsp;&nbsp;
+    This is not a legal will. See the UK &amp; EU Law page for what actually makes a will valid &nbsp;&nbsp;•&nbsp;&nbsp;
+    Your answers are stored only on this device &nbsp;&nbsp;•&nbsp;&nbsp;`,
+  body,
+  '<script src="quiz.js"></script>'
+));
+console.log("quiz.html written");
